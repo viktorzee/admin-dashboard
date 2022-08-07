@@ -8,10 +8,10 @@ Dashboard in Darkmode
 ![Screenshot 2022-08-07 003306](https://user-images.githubusercontent.com/65514728/183283983-2a414b9c-5d80-40a8-ac8c-891ba6485bd1.jpg)
 
 list of Users in Darkmode
-![Screenshot 2022-08-07 003333](https://user-images.githubusercontent.com/65514728/183269504-f52e3630-6cda-4d67-a915-f1b8f7c4e994.jpg)
+![Screenshot 2022-08-07 003333](https://user-images.githubusercontent.com/65514728/183284004-5824c39b-93ea-4884-b4c0-8e22986a1783.jpg)
 
 Single User in Darkmode
-![Screenshot 2022-08-07 003333](https://user-images.githubusercontent.com/65514728/183284004-5824c39b-93ea-4884-b4c0-8e22986a1783.jpg)
+![Screenshot 2022-08-07 003425](https://user-images.githubusercontent.com/65514728/183284508-1165ff57-72b3-408b-a725-3e4b371f3df2.jpg)
 
 Single in light mode
 ![Screenshot 2022-08-07 003528](https://user-images.githubusercontent.com/65514728/183284016-093c70a6-6d68-41ff-aab5-d637a038536a.jpg)
