@@ -1,4 +1,4 @@
-This Single Page Application was built using React, Redux-toolkit for state management, Typescript, Material UI. 
+This Single Page Application was built using React, SASS SCSS, Redux-toolkit for state management, Typescript, Material UI. 
 The application uses a darkmode and lightmode feature that enables the user switch between dark mode and light mode, I will be updating other themes pretty soon.
 
 The Dashboard / Homepage Light Mode
