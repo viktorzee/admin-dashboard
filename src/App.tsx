@@ -16,10 +16,8 @@ export default function App() {
     <div className={darkMode ? "app dark" : "app"}>
       <BrowserRouter  basename={process.env.PUBLIC_URL}> 
         <Routes>
-          {/* Home route */}
-          <Route path="/">
-            <Route index element={<Home />} />
-          </Route>
+          {/* Home route */}      
+            <Route path="/admin-dashboard" element={<Home />} />
           {/* List route */}
           <Route path="users">
             <Route index element={<List />} />
