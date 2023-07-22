@@ -3,6 +3,7 @@ import AccountBalanceWalletOutlinedIcon from "@mui/icons-material/AccountBalance
 import PersonOutlineOutlined from "@mui/icons-material/PersonOutlineOutlined"
 import { WidgetType } from "../../type";
 import "./widget.scss"
+import { Link } from "react-router-dom";
 
 // interface Type {
 //   type: {
@@ -21,7 +22,8 @@ const Widget = ( { type }: WidgetType):JSX.Element => {
     data = {
       title: "USERS",
       isMoney: false,
-      link: "See all users",
+      linkText: "See all users",
+      link: "/users",
       icon: <PersonOutlineOutlined className="icon" style={{
         color:"crimson",
         backgroundColor: "rgba(255, 0, 0, 0.2)"
@@ -32,7 +34,8 @@ const Widget = ( { type }: WidgetType):JSX.Element => {
     data = {
       title: "ORDERS",
       isMoney: false,
-      link: "See all orders",
+      linkText: "See all orders",
+      link: "#",
       icon: (
         <ShoppingCartOutlined
           className="icon"
@@ -48,7 +51,8 @@ const Widget = ( { type }: WidgetType):JSX.Element => {
     data = {
       title: "EARNINGS",
       isMoney: true,
-      link: "See all earnings",
+      linkText: "See all earnings",
+      link: "#",
       icon: (
         <MonetizationOnOutlined
           className="icon"
@@ -64,7 +68,8 @@ const Widget = ( { type }: WidgetType):JSX.Element => {
     data = {
       title: "BALANCE",
       isMoney: true,
-      link: "See details",
+      linkText: "See details",
+      link: "#",
       icon: (
         <AccountBalanceWalletOutlinedIcon
           className="icon"
@@ -86,10 +91,10 @@ const Widget = ( { type }: WidgetType):JSX.Element => {
         <span className="counter">
           {data?.isMoney && "$"}{amount}
         </span>
-        <span className="link">
-          {data?.link
+        <Link to={`${data && data.link}`} className="link">
+          {data?.linkText
           }
-        </span>
+        </Link>
 
       </div>
       <div className="right">

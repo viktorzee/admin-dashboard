@@ -14,7 +14,7 @@ export default function App() {
   const dispatch = useDispatch();
   return (
     <div className={darkMode ? "app dark" : "app"}>
-      <BrowserRouter  basename={process.env.PUBLIC_URL}> 
+      <BrowserRouter> 
         <Routes>
           {/* Home route */}      
             <Route path="/admin-dashboard" element={<Home />} />
