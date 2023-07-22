@@ -17,16 +17,16 @@ export default function App() {
       <BrowserRouter> 
         <Routes>
           {/* Home route */}      
-            <Route path="/admin-dashboard" element={<Home />} />
+            <Route path="/" element={<Home />} />
           {/* List route */}
-          <Route path="users">
+          <Route path="/admin-dashboard/users">
             <Route index element={<List />} />
             <Route path=":userId" element={<Single />} />
             <Route path="new" element={<New inputs={userInput} title="Add new Title" />} />
             
           </Route>
           {/* Products route */}
-          <Route path="products">
+          <Route path="/admin-dashboard/products">
             <Route index element={<List />} />
             <Route path=":productId" element={<Single />} />
             <Route path="new" element={<New inputs={ productInput } title="Add new Product"/>} />

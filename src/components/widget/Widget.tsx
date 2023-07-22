@@ -23,7 +23,7 @@ const Widget = ( { type }: WidgetType):JSX.Element => {
       title: "USERS",
       isMoney: false,
       linkText: "See all users",
-      link: "/users",
+      link: "users",
       icon: <PersonOutlineOutlined className="icon" style={{
         color:"crimson",
         backgroundColor: "rgba(255, 0, 0, 0.2)"
@@ -91,7 +91,7 @@ const Widget = ( { type }: WidgetType):JSX.Element => {
         <span className="counter">
           {data?.isMoney && "$"}{amount}
         </span>
-        <Link to={`${data && data.link}`} className="link">
+        <Link to={`/admin-dashboard/${data && data.link}`} className="link">
           {data?.linkText
           }
         </Link>
